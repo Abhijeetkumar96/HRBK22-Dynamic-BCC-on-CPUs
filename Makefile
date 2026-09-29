@@ -1,5 +1,5 @@
-CXX ?= clang++
-CXXFLAGS ?= -std=c++17 -Wall -Wextra -g
+CXX ?= g++
+CXXFLAGS ?= -std=c++17 -O3
 
 TARGET := main
 DEBUG_TARGET := main-debug
